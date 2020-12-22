@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #302e2e;
+    background-color: #d6d0d0;
+}
+
+
+hr {
+    border-top: 2px solid #8a8888
+}
+
+/* Navbar */
+.navbar {
+    background-color: #74c69d;
+    padding: 0.5%;
+    border: 1px solid #4abb83
+}
+
+.navbar img {
+    max-width: 100%;
+}
+
+.nav-link {
+    padding-right: 30px !important;
+    transition: 0.5s ease-in;
+}
+
+.nav-link:hover {
+    color: white !important; 
+}
+
+.big-but {
+    background-color: #302e2e;
+    color: white !important;
+    border-radius: 5px;
+    padding: 10px !important;
+    text-decoration: none !important;
+}
+
+.big-but:hover {
+    color: #302e2e !important;
+    background-color: white;
+    border: 1px solid #302e2e;
+}
+
+/* End Navbar */
+
+
+/* Banner */
+
+.banner {
+    margin: auto;
+    color: white;
+    text-shadow: 5px 500px 10px #0000;
+}
+
+.banner h1 {
+    font-size: 800%;
+}
+
+.banner p {
+    font-size: 100%;
+    font-weight: 800;
+}
+
+/* End Bannder */
+
+
+/* 2 Column */
+.about h3 {
+    text-shadow: 1px 1px 1px #000;
+    color: #74c69d;
+}
+
+.about {
+    padding: 3%;
+    font-size: 90%;
+}
+
+.side {
+    padding: 2%;
+    font-size: 90%;
+}
+
+.side a {
+    display: inline-block;
+    color: #302e2e;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.side a:hover {
+    color: #74c69d;
+}
+
+.side h3 {
+    text-shadow: 1px 1px 1px #000;
+    color: #74c69d;
+}
+/* End 2 Column */
+
+
+/* parallex start */
+.parallex {
+    background: url('images/par.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.parallex h3 {
+    position: relative;
+    top: 30%;
+    font-size: 600%;
+    padding: 2%;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 10px #0000;
+}
+/* parallex End */
+.my-car {
+    height: 100px;
+}
+
+/* Campuses */
+.card {
+    height: 100% !important;
+}
+
+.card h3 {
+    font-size: 100%;
+}
+
+.card p {
+    color: white;
+    font-size: 80%;
+}
+/* End Campus */
+
+
+/* Footer */
+.footer {
+    background-color: #74c69d;
+    padding: 2%;
+}
+
+.footer h2 {
+    font-size: 150%;
+}
+
+.footer p {
+    font-size: 80%;
+}
+
+.footer a {
+    font-size: 100%;
+    display: inline-block;
+    color: #302e2e;
+    text-decoration: none;
+    padding: 1%;
+    text-align: center;
+    margin: px;
+}
+/* End Footer */
+
+
+
+/* Media queries */
+
+@media only screen and (max-width: 992px) {
+    .banner {
+        padding: 5%;
+    }
+
+    .banner h1 {
+        font-size: 700%;
+    }
+    
+    .banner p {
+        font-size: 100%;
+        font-weight: 800;
+    }   
+
+    .about {
+        padding: 5%;
+        font-size: 80%;
+    }
+    
+    .side {
+        padding: 3%;
+        font-size: 80%;
+    }
+
+    .parallex h3 {
+        font-size: 400%;
+        padding: 3%;
+    }
+
+    .card h3 {
+        font-size: 100%;
+    }
+    
+    .card p {
+        color: white;
+        font-size: 70%;
+    }
+
+    .small-but a {
+        padding: 30px;
+        font-size: 80%;
+    }
+
+    .footer h2 {
+        font-size: 120%;
+    }
+    
+    .footer p {
+        font-size: 60%;
+    }
+    
+    .footer a {
+        font-size: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .banner h1 {
+        font-size: 200%;
+    }
+    
+    .banner p {
+        font-size: 60%;
+        font-weight: 800;
+    }   
+
+    .about {
+        padding: 6%;
+        font-size: 80%;
+    }
+    
+    .side {
+        padding: 4%;
+        font-size: 80%;
+    }
+
+    .parallex h3 {
+        font-size: 300%;
+        padding: 4%;
+    }
+
+    .card h3 {
+        font-size: 100%;
+    }
+    
+    .card p {
+        color: white;
+        font-size: 60%;
+    }
+
+    .small-but a {
+        color: blue;
+        padding: 10px;
+        font-size: 20%;
+    }
+
+    .footer h2 {
+        font-size: 90%;
+    }
+}
